@@ -1,0 +1,29 @@
+git status コマンドを追記
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+# Your branch is ahead of 'origin/master' by 1 commit.
+#   (use "git push" to publish your local commits)
+#
+# Changes to be committed:
+#	modified:   first.txt
+#
+# Untracked files:
+#	(1).pdf
+#	original (1).pdf
+#	second.txt
+#	初心者向けgit講習会.pdf
+#
+# ------------------------ >8 ------------------------
+# Do not modify or remove the line above.
+# Everything below it will be ignored.
+diff --git a/first.txt b/first.txt
+index 4280fbf..051a658 100644
+--- a/first.txt
++++ b/first.txt
+@@ -2,3 +2,4 @@ gitの練習
+ 基本的なワークフローを学びます
+ ・git add
+ ・git commit
++・git status
